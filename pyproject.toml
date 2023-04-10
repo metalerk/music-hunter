@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "music-hunter"
+version = "0.1.0"
+description = ""
+authors = ["Luis Esteban Rodriguez <rodriguezjluis0@gmail.com>"]
+readme = "README.md"
+packages = [{include = "music_hunter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python3-discogs-client = "^2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
