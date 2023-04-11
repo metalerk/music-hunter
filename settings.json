@@ -1,0 +1,11 @@
+{
+    "redis": {
+        "host": "localhost",
+        "port": 6379,
+        "db": 0
+    },
+    "discogs": {
+        "user_agent": "ExampleApplication/0.1",
+        "token": "insert-discogs-token"
+    }
+}

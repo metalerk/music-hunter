@@ -9,8 +9,14 @@ packages = [{include = "music_hunter"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 python3-discogs-client = "^2.6"
+redis = "^4.5.4"
+sqlalchemy = "^2.0.9"
+argparse = "^1.4.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+discogs = 'music_hunter.apps.discogs_crawler:run'
