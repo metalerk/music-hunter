@@ -49,3 +49,4 @@ INFO:Discogs Crawler -> :==============================
 - [ ] Finish models
 - [ ] Add loggers for artist, label and master entities
 - [ ] Add tests
+- [ ] Improve the docs
