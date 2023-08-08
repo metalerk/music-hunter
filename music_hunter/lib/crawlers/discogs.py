@@ -47,4 +47,3 @@ class DiscogsCrawler:
             if verbose:
                 if type == TypeEnum.RELEASE.value:
                     self.__log_release(item)
-
